@@ -17,6 +17,7 @@ export default function App() {
       <Text style={styles.text}>POMODORO</Text>
       <Header currentTime={currentTime} setCurrentTime={setCurrentTime} setTime={setTime}/>
       <Timer time={time}/>
+      <Text>hola</Text>
       <StatusBar style="auto" />
       </View>
     </SafeAreaView>
